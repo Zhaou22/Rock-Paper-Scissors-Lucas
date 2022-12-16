@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1 id="main_title">Rock Paper Scissors</h1>
+
+    <div class="container score_board">
+        <table>
+            <tr>
+                <td class="score player_score">--</td>
+                <td class="score draw_score">--</td>
+                <td class="score computer_score">--</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="player_container computer">
+            <img src="asset/none_icon.png" alt="COMPUTER" class="computer_indicator">
+        </div>
+        <div class="player_container player">
+            <table>
+                <tr>
+                    <td class="hand_button rock" align="center">
+                        <img src="asset/rock_icon.png" alt="ROCK">
+                    </td>
+                    <td class="hand_button paper" align="center">
+                        <img src="asset/paper_icon.png" alt="ROCK">
+                    </td>
+                    <td class="hand_button scissors" align="center">
+                        <img src="asset/scissors_icon.png" alt="ROCK">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <table class="player_status">
+            <tr>
+                <td>MATCH</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</html>
